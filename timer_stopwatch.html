@@ -1,0 +1,36 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="stopwatch">
+                <h2>Stopwatch</h2>
+                <div class="display">
+                    <span class="minutes">00</span>:<span class="seconds">00</span>:<span class="milliseconds">000</span>
+                </div>
+                <button class="start">Start</button>
+                <button class="stop">Stop</button>
+                <button class="reset">Reset</button>
+            </div>
+            <div class="timer"> 
+                <h2>Timer</h2>
+                <div class="display">
+                    <span class="minutes">00</span>:<span class="seconds">00</span>
+                </div>
+                <label>Set time (in minutes):</label>
+                <input type="number" id="time-input" min="1" max="120"></br>
+                <button class="start">Start</button>
+                <button class="stop">Stop</button>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
